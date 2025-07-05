@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SQLite and other DBs
+*.sqlite3
+*.db
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# VSCode and other IDEs/editors
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Compiled files
+*.so
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Pytest cache
+.pytest_cache/
